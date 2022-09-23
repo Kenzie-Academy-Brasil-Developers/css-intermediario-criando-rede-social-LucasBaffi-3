@@ -1,0 +1,28 @@
+.header-login{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: #212529;
+    color: #FFFFFF;
+    font-size: 7px;
+}
+
+.botton-login{
+    background-color: #495057;
+    border: none;
+    color: #ffffff;
+    width: 46px;
+    height: 22px;
+    border-radius: 3px;
+}
+
+.botton-registro{
+    color: #DEE2E6;
+    background-color: #212529;
+    border: none;
+}
+
+.div-header{
+    display: flex;
+    gap: 10px;
+}

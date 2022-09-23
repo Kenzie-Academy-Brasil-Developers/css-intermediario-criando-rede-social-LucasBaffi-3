@@ -1,4 +1,4 @@
-.navbar{
+/* .navbar{
     background-color: var(--color-grey-1);
     padding: 1.75rem 0;
 }
@@ -27,4 +27,89 @@
 
 .navbar-link:hover, .navbar-link.actived{
     background-color: var(--color-grey-2);
+} */
+
+.header-login{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: #212529;
+    color: #FFFFFF;
+    font-size: 7px;
+}
+
+
+
+.posts-perfil{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.perfil{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+main{
+    display: flex;
+    margin-top: 50px;
+}
+
+.div-post{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 180px;
+
+}
+.post-titulo{
+    font-size: 12px;
+    width: 160px;
+    border: 1px solid #DEE2E6;
+    height: 20px;
+    font-size: 10px;
+}
+
+.post-descricao{
+ 
+    width: 160px;
+    border: 1px solid #DEE2E6;
+    height: 80px;
+    font-size: 10px;
+}
+
+
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 160px;
+    font-size: 10px;
+
+}
+
+
+
+.div-buttons{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.section-seguir{
+    margin: 0 auto;
 }
