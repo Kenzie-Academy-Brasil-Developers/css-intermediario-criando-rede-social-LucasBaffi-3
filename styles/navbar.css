@@ -31,13 +31,13 @@
 
 .header-login{
     display: flex;
-  
+    padding:23px;
     height: 40px;    
     background-color: #212529;
     color: #FFFFFF;
     font-size: 7px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
@@ -65,9 +65,10 @@
 
 .perfil-seguir{
     display: flex;
+    justify-content: space-evenly;
     font-size: 10px;
     padding: 10px;
-    gap: 4px;
+    gap: 10px;
 }
 main{
     display: flex;
@@ -85,7 +86,7 @@ main{
 }
 .post-titulo{
     font-size: 12px;
-    width: 160px;
+    width: 280px;
     border: 1px solid #DEE2E6;
     height: 20px;
     font-size: 10px;
@@ -93,7 +94,7 @@ main{
 
 .post-descricao{
  
-    width: 160px;
+    width: 280px;
     border: 1px solid #DEE2E6;
     height: 80px;
     font-size: 10px;
@@ -135,14 +136,16 @@ h4 {
 .section-seguir{
     margin: 0 auto;
     width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .sugestoes-seguir{
-    position: relative;
-    left: 20px;
-    width: 134px;
-    bottom: 20px;
-    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    padding: 24px;      
+    font-size: 15px;
     font-weight: 600;
 }
 
