@@ -60,4 +60,57 @@ const users = [
     title: "O que é programação orientada a objetos e programação funcional",
     text: "A Programação Funcional é uma orientação focada na programação declarativa. Conhecendo mais a programação funcional a partir de códigos podemos nos deparar de primeira com o conceito mais central da programação funcional, que é o conceito de funções puras, isso significa que o retorno de uma função deve depender apenas dos seus parâmetros de entrada. Com classes podemos editar os valores das propriedades dos objetos criados ou ainda criar métodos para essas propriedades, ainda por cima podemos definir se vão ser públicos (vão para o objeto) ou estáticos (não são instanciados, ou seja, não vão para o objeto), e isso tem seu lado bom e ruim.",
   },
+ 
 ];
+
+const img = [
+  {
+    imgCoracao: ''
+  }
+]
+// <!-- <li class="perfil-seguir">
+// <img src="./assets/img/Ellipse 1.png" alt="" />
+// <div>
+//   <h4>Samuel Leao</h4>
+//   <p>Front end Enginner</p>
+// </div>
+// <button class="button-seguir">Seguir</button> -->
+
+
+function renderPrefile (users) {
+
+  let li = document.createElement('li')
+  let img = document.createElement('img')
+  let div = document.createElement('div')
+  let h4 = document.createElement('h4')
+  let p = document.createElement('p')
+  let button = document.createElement('button')
+
+  li.classList.add('perfil-seguir')
+  img.src = users.img
+  h4.innerText = users.user
+  p.innerText = users.stack
+  button.classList.add('button-seguir')
+  button.innerText = 'Seguir'
+
+  div.append(h4, p)
+  li.append(img, div, button)
+
+  return li
+
+}
+
+let ul = document.querySelector('.ulSeguir')
+
+let listLike = (likeUsers) => {
+
+  ul.innerHTML = ''
+
+  likeUsers.forEach((element) => {
+    let like = renderPrefile(element)
+    ul.append(like)
+    
+  });
+}
+
+listLike(users)

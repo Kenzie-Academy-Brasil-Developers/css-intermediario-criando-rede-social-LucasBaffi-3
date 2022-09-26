@@ -32,7 +32,7 @@ let h3Card = document.createElement('h3')
 let pCard = document.createElement('p')
 let divButton = document.createElement('div')
 let button = document.createElement('button')
-let input = document.createElement('input')
+let imgButton = document.createElement('img')
 
 img.src = users.img
 h3.innerText = users.user
@@ -46,15 +46,14 @@ divCard.classList.add('card')
 divButton.classList.add('div-buttons')
 img.classList.add('img-post')
 button.classList.add('button-openPost')
-input.type = ('radio')
-
+imgButton.scr = users.imgHeart
 
 
 divPerfil.append(img, div)
 div.append(h3, p)
 divCard.append(h3Card, pCard)
 
-divButton.append(button, input)
+divButton.append(button, imgButton)
 
 li.append(divPerfil, divCard, divButton)
 
