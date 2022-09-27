@@ -63,11 +63,7 @@ const users = [
  
 ];
 
-const img = [
-  {
-    imgCoracao: ''
-  }
-]
+
 // <!-- <li class="perfil-seguir">
 // <img src="./assets/img/Ellipse 1.png" alt="" />
 // <div>
@@ -106,7 +102,7 @@ let listLike = (likeUsers) => {
 
   ul.innerHTML = ''
 
-  likeUsers.forEach((element) => {
+  likeUsers.map((element) => {
     let like = renderPrefile(element)
     ul.append(like)
     

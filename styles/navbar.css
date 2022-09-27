@@ -1,45 +1,20 @@
-/* .navbar{
-    background-color: var(--color-grey-1);
-    padding: 1.75rem 0;
-}
-
-.navbar-items{
-    display: flex;
-    justify-content: space-between;
-}
-
-.navbar-links{
-    display: flex;
-    gap: 1rem;
-}
-
-.navbar-link{
-    background-color: transparent;
-    color: var(--color-white-fixed);
-    height: 2rem;
-    padding: 0.5rem;
-    border-radius: var(--radius-1);
-    text-decoration: none;
-    font-size: 0.875rem;
-    font-weight: 400;
-    cursor: pointer;
-}
-
-.navbar-link:hover, .navbar-link.actived{
-    background-color: var(--color-grey-2);
-} */
 
 .header-login{
     display: flex;
     padding:23px;
     height: 40px;    
     background-color: #212529;
-    color: #FFFFFF;
+    color: var(--color-white-fixed);
     font-size: 7px;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    width: 100%;
     
 }
+
 
 
 
@@ -50,9 +25,11 @@
     width: 50%;
     height: 100vh;
     margin: 0 auto;
+    
 }
 .perfil{
     display: flex;
+    align-items: center;
     gap: 10px;
     padding: 10px;
     font-size: 10px;
@@ -74,6 +51,8 @@ main{
     display: flex;
     position: relative;
     top: 47px;
+    flex-direction: row;
+
 }
 
 .div-post{
@@ -84,21 +63,7 @@ main{
     width: 180px;
 
 }
-.post-titulo{
-    font-size: 12px;
-    width: 280px;
-    border: 1px solid #DEE2E6;
-    height: 20px;
-    font-size: 10px;
-}
 
-.post-descricao{
- 
-    width: 280px;
-    border: 1px solid #DEE2E6;
-    height: 80px;
-    font-size: 10px;
-}
 
 h2{
     position: relative;
@@ -126,6 +91,9 @@ h4 {
     font-size: 12px;
 }
 
+.cardInfo{
+    font-size: 15px;
+}
 
 .div-buttons{
     display: flex;
@@ -134,6 +102,8 @@ h4 {
 }
 
 .section-seguir{
+    position: sticky;
+    top: 0;
     margin: 0 auto;
     width: 50%;
     display: flex;
@@ -142,13 +112,48 @@ h4 {
 
 .sugestoes-seguir{
     display: flex;
-    justify-content: space-evenly;
-    font-size: 16px;
-    padding: 24px;      
-    font-size: 15px;
+    padding: 13px;
+    font-size: 13px;
     font-weight: 600;
+    position: fixed;
+
 }
 
 .img-post{
     width: 53px;
 }
+
+.ulSeguir{
+    position: fixed;
+    margin-top: 100px;
+}
+
+
+@media (min-width: 768px){
+    .section-seguir{
+        width: 30%;
+    }
+    .perfil-seguir {
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+        padding: 10px;
+        gap: 46px;
+        flex-direction: row;
+        align-items: center;
+    }
+    .div-post{
+        width: 100%;
+    }
+    
+
+    .sugestoes-seguir{
+        font-size: 15px;
+        font-weight: 700;
+        position: fixed;
+        top: 70px;
+    }
+    .cardInfo{
+        font-size: 15px;
+    }
+    }
