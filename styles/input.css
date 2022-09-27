@@ -9,7 +9,7 @@
 .text{
     font-size: 12px;
     resize: none;
-    border: 1px solid #DEE2E6;
+    border: 1px solid var(--color-white-fixed);
     width: 100%;
    
 }

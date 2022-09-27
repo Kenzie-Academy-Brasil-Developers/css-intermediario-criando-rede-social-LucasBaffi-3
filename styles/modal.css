@@ -1,4 +1,4 @@
-.modal-main {
+.modalMain {
   left: 0;
   height: 100%;
   width: 100%;
@@ -11,7 +11,7 @@
 }
 
 .modal {
-  background-color: #ffffff;
+  background-color: var(--color-white-fixed);
   width: 85%;
   height: 300px;
   margin-top: 115px;
@@ -27,7 +27,7 @@
 
 @media (min-width: 768px) {
   .modal {
-    background-color: #ffffff;
+    background-color: var(--color-white-fixed);
     width: 40%;
     height: 333px;
     margin-top: 80px;

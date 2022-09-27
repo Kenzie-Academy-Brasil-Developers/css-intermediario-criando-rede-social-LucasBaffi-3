@@ -20,7 +20,9 @@ img.src = users.img
 h3.innerText = users.user
 p.innerText = users.stack
 h3Card.innerText = users.title
+h3Card.classList.add('cardInfo')
 pCard.innerText = users.text
+pCard.classList.add('cardInfo')
 button.innerText = 'Abrir post'
 
 divPerfil.classList.add('perfil')

@@ -4,7 +4,7 @@
     padding:23px;
     height: 40px;    
     background-color: #212529;
-    color: #FFFFFF;
+    color: var(--color-white-fixed);
     font-size: 7px;
     align-items: center;
     justify-content: space-between;
@@ -14,6 +14,7 @@
     width: 100%;
     
 }
+
 
 
 
@@ -90,6 +91,9 @@ h4 {
     font-size: 12px;
 }
 
+.cardInfo{
+    font-size: 15px;
+}
 
 .div-buttons{
     display: flex;
@@ -98,6 +102,8 @@ h4 {
 }
 
 .section-seguir{
+    position: sticky;
+    top: 0;
     margin: 0 auto;
     width: 50%;
     display: flex;
@@ -146,5 +152,8 @@ h4 {
         font-weight: 700;
         position: fixed;
         top: 70px;
+    }
+    .cardInfo{
+        font-size: 15px;
     }
     }
