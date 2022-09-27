@@ -4,7 +4,7 @@ const users = [
     id: 1,
     user: "Samuel Leão",
     stack: "Front end Engineer",
-    img: "../../assets/img/user1.svg",
+    img: "./assets/img/user1.svg",
     title:
       "Empresa de Tecnologia da Informação abre vagas para programa de estágio",
     //texto do post
@@ -14,7 +14,7 @@ const users = [
     id: 2,
     user: "Samuel Persuhn",
     stack: "Front end Engineer",
-    img: "../../assets/img/user2.svg",
+    img: "./assets/img/user2.svg",
     title:
     "Programa de estágio abre vagas em Segurança da Informação com regime remoto",
   text: "Em Segurança da Informação, as vagas são destinadas às áreas de Security Operations Center (SOC), Administração de Dispositivos de Segurança (ADS), Resposta a Incidentes (RI), Segurança e Privacidade e Consultoria Técnica. O candidato interessado deverá estar matriculado em um curso superior em Ciência da Computação, Segurança da Informação, Tecnologia da Informação e afins, com previsão de conclusão do curso de fevereiro de 2023 a fevereiro de 2025.",
@@ -23,7 +23,7 @@ const users = [
     id: 3,
     user: "Carlos Lima",
     stack: "UX e UI Designer",
-    img: "../../assets/img/user3.svg",
+    img: "./assets/img/user3.svg",
     title: "O que é programação orientada a objetos e programação funcional",
     text: "A Programação Funcional é uma orientação focada na programação declarativa. Conhecendo mais a programação funcional a partir de códigos podemos nos deparar de primeira com o conceito mais central da programação funcional, que é o conceito de funções puras, isso significa que o retorno de uma função deve depender apenas dos seus parâmetros de entrada. Com classes podemos editar os valores das propriedades dos objetos criados ou ainda criar métodos para essas propriedades, ainda por cima podemos definir se vão ser públicos (vão para o objeto) ou estáticos (não são instanciados, ou seja, não vão para o objeto), e isso tem seu lado bom e ruim.",
   },
@@ -31,7 +31,7 @@ const users = [
     id: 4,
     user: "Carla Maria",
     stack: "Back end Engineer",
-    img: "../../assets/img/user4.svg",
+    img: "./assets/img/user4.svg",
     title:
     "Empresa de Tecnologia da Informação abre vagas para programa de estágio",
   //texto do post
@@ -41,7 +41,7 @@ const users = [
     id: 5,
     user: "Júlia Martins",
     stack: "Devop's",
-    img: "../../assets/img/user5.svg",
+    img: "./assets/img/user5.svg",
     title:
     "Programa de estágio abre vagas em Segurança da Informação com regime remoto",
   text: "Em Segurança da Informação, as vagas são destinadas às áreas de Security Operations Center (SOC), Administração de Dispositivos de Segurança (ADS), Resposta a Incidentes (RI), Segurança e Privacidade e Consultoria Técnica. O candidato interessado deverá estar matriculado em um curso superior em Ciência da Computação, Segurança da Informação, Tecnologia da Informação e afins, com previsão de conclusão do curso de fevereiro de 2023 a fevereiro de 2025.",
@@ -49,18 +49,18 @@ const users = [
   {
     id: 6,
     user: "Filipe Gutierry",
-    img: "../../assets/img/user7.svg",
+    img: "./assets/img/user7.svg",
     title: "O que é programação orientada a objetos e programação funcional",
     text: "A Programação Funcional é uma orientação focada na programação declarativa. Conhecendo mais a programação funcional a partir de códigos podemos nos deparar de primeira com o conceito mais central da programação funcional, que é o conceito de funções puras, isso significa que o retorno de uma função deve depender apenas dos seus parâmetros de entrada. Com classes podemos editar os valores das propriedades dos objetos criados ou ainda criar métodos para essas propriedades, ainda por cima podemos definir se vão ser públicos (vão para o objeto) ou estáticos (não são instanciados, ou seja, não vão para o objeto), e isso tem seu lado bom e ruim.",
   },
   {
     id: 7,
     user: "Samuel Persuhn",
-    img: "../../assets/img/user6.svg",
+    img: "./assets/img/user6.svg",
     title: "O que é programação orientada a objetos e programação funcional",
     text: "A Programação Funcional é uma orientação focada na programação declarativa. Conhecendo mais a programação funcional a partir de códigos podemos nos deparar de primeira com o conceito mais central da programação funcional, que é o conceito de funções puras, isso significa que o retorno de uma função deve depender apenas dos seus parâmetros de entrada. Com classes podemos editar os valores das propriedades dos objetos criados ou ainda criar métodos para essas propriedades, ainda por cima podemos definir se vão ser públicos (vão para o objeto) ou estáticos (não são instanciados, ou seja, não vão para o objeto), e isso tem seu lado bom e ruim.",
   },
- 
+
 ];
 
 
