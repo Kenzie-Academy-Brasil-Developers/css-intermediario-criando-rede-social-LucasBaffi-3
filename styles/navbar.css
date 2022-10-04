@@ -123,11 +123,20 @@ h4 {
     width: 53px;
 }
 
+.imgCoracao{
+    width: 22px;
+    height: 20px;
+}
+
 .ulSeguir{
     position: fixed;
     margin-top: 100px;
 }
 
+.div-post > div {
+    display: flex;
+    justify-content: flex-end;
+}
 
 @media (min-width: 768px){
     .section-seguir{

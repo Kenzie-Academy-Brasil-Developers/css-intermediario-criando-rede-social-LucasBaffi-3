@@ -39,20 +39,6 @@ return divModalMain
 }
 
 
-// let renderModal = document.querySelector('.modalMain')
-// let modais = (mod) => { 
-   
-    
-
-// mod.map((element) => {
-//   let posts = creatModal(element)
-//   renderModal.append(posts)
-
-// });
-// }
-// modais(users)
-// console.log(renderModal);
-
 
 
 function showModal () {

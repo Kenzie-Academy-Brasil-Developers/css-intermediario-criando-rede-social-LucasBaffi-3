@@ -7,8 +7,10 @@
 }
 
 :root{
+    --color--blue-1:#4263EB;
     --color-grey-1: #212529;
     --color-grey-2: #495057;
+    --color-grey-3: #DEE2E6;
     --color-white-fixed: #ffffff;
     --radius-1: 0.25rem;
     --font-family-1: "Inter", sans-serif;
