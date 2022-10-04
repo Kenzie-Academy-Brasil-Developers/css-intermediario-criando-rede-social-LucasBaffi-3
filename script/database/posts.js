@@ -32,7 +32,7 @@ divButton.classList.add('div-buttons')
 img.classList.add('img-post')
 button.classList.add('button-openPost')
 imgCoracao.classList.add('imgCoracao')
-imgCoracao.src = './assets/img/vector.svg'
+imgCoracao.src = './assets/img/Vector.svg'
 
 
 
